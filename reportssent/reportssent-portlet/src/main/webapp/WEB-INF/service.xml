@@ -1,0 +1,41 @@
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.2.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_2_0.dtd">
+
+<service-builder package-path="com.reportssent.plugins">
+	<namespace>OH</namespace>
+	<entity name="Reports" uuid="true" local-service="true" remote-service="true">
+
+        <!-- PK fields -->
+
+        <column name="statusId" type="long" primary="true" />
+
+        <!-- Group instance -->
+
+        <column name="groupId" type="long" />
+
+        <!-- Audit fields -->
+
+        <column name="companyId" type="long" />
+        <column name="userId" type="long" />
+        <column name="userName" type="String" />
+        <column name="createDate" type="Date" />
+        <column name="modifiedDate" type="Date" />
+
+        <!-- Other fields -->
+
+        <column name="statusName" type="String" />
+
+
+        <!-- Order -->
+        <column name="statusValue" type="String"></column>
+
+        <order by="asc">
+            <order-column name="statusName" />
+        </order>
+
+        <!-- Finder methods -->
+
+        <finder name="StatusName" return-type="Collection">
+            <finder-column name="statusName" />
+        </finder>
+    </entity>
+</service-builder>

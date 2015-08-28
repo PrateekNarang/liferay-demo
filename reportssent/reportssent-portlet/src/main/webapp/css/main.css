@@ -1,0 +1,44 @@
+.portal-inner-content {
+	padding: 1em;
+	background-color: #eee;
+	color: #333;
+	border-radius: 10px;
+}
+
+.portal-header-content {
+	text-align: center;
+	color: #333;
+	margin-bottom: 1em;
+	font-size: 2em;
+}
+
+.primary-column {
+	font-weight: bold;
+	text-align: right;
+}
+
+.primary-column-2 {
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.inherit-width {
+	width: 100% !important;
+}
+
+.secondary-column {
+	font-weight: bold;
+	color: #0e45ad;
+	border-left: solid 1px #0e45ad;
+	text-align: left;
+	padding-left: 2em;
+}
+
+.center-align {
+	text-align: center;
+}
+
+.no-style {
+	font-weight: normal;
+}

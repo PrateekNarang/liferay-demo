@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/javax/portlet/portlet-api/2.0/portlet-api-2.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/servlet/jsp/jsp-api/2.0/jsp-api-2.0.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+  <classpathentry kind="src" path="/status-patients-portlet-service"/>
+  <classpathentry kind="var" path="M2_REPO/com/liferay/portal/portal-service/6.2.1/portal-service-6.2.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/liferay/portal/util-bridges/6.2.1/util-bridges-6.2.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/liferay/portal/util-taglib/6.2.1/util-taglib-6.2.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/liferay/portal/util-java/6.2.1/util-java-6.2.1.jar"/>
+</classpath>

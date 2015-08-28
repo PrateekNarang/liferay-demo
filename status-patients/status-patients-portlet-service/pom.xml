@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<parent>
+		<groupId>com.status-patients.plugins</groupId>
+		<artifactId>status-patients</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.status-patients.plugins</groupId>
+	<artifactId>status-patients-portlet-service</artifactId>
+	<packaging>jar</packaging>
+	<name>status-patients Portlet Service</name>
+	<version>1.0.0-SNAPSHOT</version>
+    <properties>
+        <liferay.version>6.2.1</liferay.version>
+        <liferay.maven.plugin.version>6.2.1</liferay.maven.plugin.version>
+        <liferay.auto.deploy.dir>/Users/nishanthkaladharan/Downloads/bundles/liferay-portal-6.2-ce-ga4/deploy</liferay.auto.deploy.dir>
+        <liferay.app.server.deploy.dir>/Users/nishanthkaladharan/Downloads/bundles/liferay-portal-6.2-ce-ga4/tomcat-7.0.42/webapps</liferay.app.server.deploy.dir>
+        <liferay.app.server.lib.global.dir>/Users/nishanthkaladharan/Downloads/bundles/liferay-portal-6.2-ce-ga4/tomcat-7.0.42/lib/ext</liferay.app.server.lib.global.dir>
+        <liferay.app.server.portal.dir>/Users/nishanthkaladharan/Downloads/bundles/liferay-portal-6.2-ce-ga4/tomcat-7.0.42/webapps/ROOT</liferay.app.server.portal.dir>
+    </properties>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.liferay.maven.plugins</groupId>
+				<artifactId>liferay-maven-plugin</artifactId>
+				<version>${liferay.maven.plugin.version}</version>
+				<configuration>
+					<webappBaseDir>${basedir}/../status-patients-portlet</webappBaseDir>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>com.liferay.portal</groupId>
+			<artifactId>portal-service</artifactId>
+			<version>${liferay.version}</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+</project>
