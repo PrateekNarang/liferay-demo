@@ -1,0 +1,8 @@
+#set ($nav_css_class_custom = "nav_custom")
+#set ($nav_item_logo_css_class = 'nav_item_logo')
+#set ($nav_item_css_class_custom = "nav_item")
+#set ($content_css_class = "content_custom")
+#set ($top_banner_css_class = "top_banner")
+#set ($page_title_css_class = "page_title")
+#set ($logo_nav_bar = "logo_nav_bar")
+
