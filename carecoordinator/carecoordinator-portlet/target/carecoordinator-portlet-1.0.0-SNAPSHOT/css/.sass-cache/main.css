@@ -1,0 +1,76 @@
+.occuhub_remove_padding {
+  padding: 0em !important; }
+
+.ocuhub_remove_margin {
+  margin: 0em !important; }
+
+.ocuhub_hidden, #detail-url {
+  display: none; }
+
+.ocuhub_center_align {
+  text-align: center; }
+
+.ocuhub_portal_header {
+  color: #2aaae6;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 1em 0em; }
+
+.ocuhub_overview_tile {
+  background-color: #2aaae6;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  color: #fff;
+  box-shadow: 1px 1px 2px #17608e;
+  margin-top: 1em; }
+
+.ocuhub_detail_tile {
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 1em 2em; }
+
+.ocuhub_tile_header {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em; }
+
+.ocuhub_subtile_header {
+  color: #666;
+  font-weight: bold; }
+
+.ocuhub_appointments_header {
+  background-color: #bbb;
+  color: #fff;
+  font-weight: bold;
+  margin: 0em;
+  margin-top: 2em;
+  padding: 0.5em 0em; }
+
+.ocuhub_appointments_row {
+  background-color: #fff;
+  color: #666;
+  margin: 0em; }
+
+.ocuhub_row_1 {
+  background-color: #fff; }
+
+.ocuhub_row_2 {
+  background-color: #eee; }
+
+.ocuhub_select_action {
+  width: 80% !important; }
+
+.ocuhub_row_cell {
+  padding: 0.75em 1em; }
+
+.ocuhub_row_cell > span {
+  height: 30px;
+  display: inline-block; }
+
+.ocuhub_cell_border {
+  border-right: 1px solid #bbb; }
+
+.occuhub_notes {
+  margin-top: 2em; }
+
